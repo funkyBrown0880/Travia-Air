@@ -318,3 +318,25 @@ a {
     font-weight: 700;
     color: #FFFFFF;
 }
+
+footer {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.footerList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footerList h5 {
+    font: 1.2rem sans-serif;
+    font-weight: 700;
+}
+
+.footerList a p {
+    font: 1rem sans-serif;
+}
