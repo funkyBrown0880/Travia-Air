@@ -67,9 +67,9 @@ a {
 }
 
 .upperAeroplane {
-    width: 40%;
+    width: 50%;
     position: absolute;
-    top: -7rem;
+    top: -8rem;
     right: .1rem;
 }
 
@@ -78,7 +78,7 @@ a {
     flex-direction: column;
     gap: 1.5rem;
     text-align: left;
-    margin: 0 0 0 4rem;
+    margin: 5rem 5rem;
 }
 
 .worldClass {
@@ -91,7 +91,7 @@ a {
 }
 
 .goal {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #676767;
 
 }
@@ -252,29 +252,69 @@ a {
 /* Customers feedback */
 
 .feedback {
-    background-image: url("half-aero.png");
-    background-repeat: no-repeat;
+   background-image: url('half-aero.png');
+   background-repeat: no-repeat;
     background-position: right;
-    padding-left: 5rem;
+    background-size: contain; 
+    padding-bottom: 10rem;
 }
 
 .feedbackText h2 {
     font: 2rem sans-serif;
     font-weight: 700;
-    padding: 0 55rem 0 0;
+    padding: 2rem 8rem;
 }
 
 .feedbackImg {
-    display: flex;
-    height: 15rem;
-    margin-top: 2rem;
+    margin-left: 5rem;
 }
 
-.bottomContact {
+.feedbackImg img {
+    height: 20rem;
+}
+
+.BottomContact {
+    position: relative;
+    background-color: #0E1035;
+    height: 10rem;
+    width: 70rem;
+    bottom: 5rem;
+    left: 5rem;
+    border-radius: 20px;
+}
+
+.BottomContact img {
+    height: 10rem;
+    position: absolute;
+    left: 52.3rem;
+}
+
+.BottomContactButton {
     display: flex;
-    background-color:#0E1035;
-    height: 5rem;
-    /* width: 10rem; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+}
+
+.BottomContactButton button {
+    width: 8rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    padding: .5rem .5rem;
+    border-radius: .5rem;
+    color: #0E1035;
+    /* margin-bottom: 5rem; */
 
 }
 
+.feedbackText h2 {
+    font: 2rem sans-serif;
+    font-weight: 700;
+    padding: 2rem 8rem;
+}
+
+.BottomContactButton h4 {
+    font: 1.2rem sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+}
